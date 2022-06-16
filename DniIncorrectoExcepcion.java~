@@ -1,0 +1,16 @@
+//Juan del Pozo Ávila
+
+package fp2.poo.pfpoojuadelavi.Excepciones;
+import java.lang.Exception;
+
+public class DniIncorrectoExcepcion extends Exception{
+
+    public String aux;
+
+    public DniIncorrectoExcepcion(){
+	this.aux = "";
+    }
+    public DniIncorrectoExcepcion(String aux2){
+	this.aux = aux2;
+    }
+}
